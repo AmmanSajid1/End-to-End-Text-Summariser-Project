@@ -32,7 +32,7 @@ class ModelTrainer:
 
         trainer = Trainer(model=model_pegasus, args=trainer_args,
                           data_collator=data_collator, tokenizer=tokenizer,
-                          train_dataset=dataset_samsum_pt['test'],
+                          train_dataset=dataset_samsum_pt['train'],
                           eval_dataset=dataset_samsum_pt['validation'])
         
         trainer.train()
