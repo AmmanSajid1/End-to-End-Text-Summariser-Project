@@ -1,4 +1,4 @@
- 📝 AI Text Summarizer  
+# 📝 AI Text Summarizer  
 
 This project is an **end-to-end AI text summarizer** that fine-tunes a **pretrained PEGASUS model (`google/pegasus-cnn_dailymail`)** on the **SAMSum** conversation dataset. The project follows a modular structure, allowing easy configuration and extension. It deploys a **FastAPI service**, enabling users to interact with the model via a REST API.  
 
